@@ -1,51 +1,54 @@
-
+<<<<<<< HEAD
+  
+=======
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-  
-  ul,
-  ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  a {
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  p {
-    margin: 0;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  body {
-    overflow-x: hidden;
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-  }
-  
-  .container {
-    max-width: 1230px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+>>>>>>> 2dff779a8b52d25c4cf7ae28295e6068ecc2f962
