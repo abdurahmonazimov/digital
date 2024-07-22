@@ -1,0 +1,126 @@
+.develop{
+    padding-top: 95px;
+}
+
+.develop__title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 187%;
+    margin-bottom: 18px;
+    color: #222;
+}
+
+.develop__title_block{
+    text-align: center;
+    margin-bottom: 106px;
+}
+
+
+.develop__text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 187%;
+    color: #525252;
+}
+
+.develop__item{
+    text-align: center;
+    position: relative;
+    margin-bottom: 160px;
+
+    &::before{
+        content: "";
+        width: 65px;
+        height: 65px;
+        background-image: url(/img/develop.icon.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: -181%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.develop__item_main{
+    display: none;
+    text-align: center;
+    position: relative;
+    margin-bottom: 160px;
+
+    &::before{
+        content: "";
+        width: 65px;
+        height: 65px;
+        background-image: url(/img/develop.icon.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: absolute;
+        top: -181%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.develop__item_main_block{
+    display: none;
+}
+
+.develop__item_main::after{
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-image: url(/img/right.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    top: 220%;
+    transform: translate(-50%, -50%);
+}
+
+.develop__item::after{
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-image: url(/img/right.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    top: 220%;
+    transform: translate(-50%, -50%);
+
+}
+
+.develop__sm_text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    color: #000;
+}
+
+@media screen and (min-width:1110px) {
+    .develop__title_block{
+        width: 826px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .develop__list{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-wrap: wrap;
+       gap: 50px;
+    }
+
+    .develop__item_main{
+        display: inline-block;
+    }
+
+    .develop__item_main_block{
+        display: flex;
+        gap: 50px;
+       
+    }
+
+    
+    
+}

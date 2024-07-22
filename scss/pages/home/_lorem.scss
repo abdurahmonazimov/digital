@@ -1,0 +1,63 @@
+.Lorem{
+    padding-top: 48px;
+}
+
+.Lorem__title__block{
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.Lorem__title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 187%;
+    color: #222;
+}
+
+.Lorem__img_block{
+   text-align: center;
+}
+
+.lorem__des_img{
+    display: none;
+}
+
+.lorem__sm_title{
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 187%;
+    color: #222;
+}
+
+.lorem__sm_text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #525252;
+}
+
+.lorem__content{
+    display: none;
+}
+
+
+@media screen and (min-width:1110px) {
+
+    .lorem__content{
+        display: inline-block;
+        width: 544px;
+    }
+
+    .Lorem__img{
+        display: none;
+    }
+
+    .lorem__des_img{
+        display: inline-block;
+    }
+
+    .Lorem__img_block{
+        text-align: start;
+    }
+}

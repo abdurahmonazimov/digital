@@ -1,0 +1,76 @@
+.home__hero{
+    background-image: url(/img/Vector\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 148px 48px;
+}
+
+
+.home__hero_title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 155%;
+    color: #e87d0e;
+    margin-bottom: 31px;
+}
+
+.home__hero__text{
+    margin-bottom: 28px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 155%;
+    color: #000;
+}
+
+.home__hero__text_main{
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 200%;
+    color: #000;
+}
+
+.home__hero__btn{
+    border-radius: 40px;
+    padding: 13px 22px;
+    background-color: #e87d0e;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+}
+
+.home__hero__img_block{
+    display: none;
+}
+
+@media screen and (min-width:1110px) {
+
+    .home__hero__text{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 155%;
+        color: #000;
+    }
+
+    .home__hero{
+        background-image: url(/img/home__hero_des.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .home__hero__block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 128px 0 68px 0;
+    }
+
+    .home__hero__img_block{
+        display: inline-block;
+    }
+
+    .home__hero_title_block{
+        width: 527px;
+        text-align: start;
+    }
+}
