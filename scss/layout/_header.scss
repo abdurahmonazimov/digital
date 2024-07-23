@@ -1,0 +1,111 @@
+.header_block {
+    background: linear-gradient(111deg, #e47500 0%, #df7c14 100%);
+    padding: 20px 24px 19px 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_list {
+    display: none;
+}
+
+.header_button {
+    display: none;
+}
+
+.header_info_block {
+    display: none;
+}
+
+@media screen and (min-width : 1110px) {
+    .header_info_block {
+        display: inline-block;
+        margin-top: 8px;
+        margin-bottom: 9px;
+    }
+
+    .header_block {
+        padding: 15px 82px 13px 63px;
+        justify-content: space-between;
+    }
+
+    .header_icon {
+        display: none;
+    }
+
+    .header_icon {
+        display: none;
+    }
+
+    .header_button {
+        background-color: #fff;
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 13px;
+        color: #dc7000;
+        padding: 10px 28px 11px 27px;
+        white-space: nowrap;
+    }
+
+    .header_list {
+        display: flex;
+        gap: 64px;
+        align-items: center;
+    }
+
+    .header_list_block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_button {
+        display: inline-block;
+    }
+
+    .header_info_block {
+        display: flex;
+        justify-content: end;
+        gap: 121px;
+    }
+
+    .header_address_link {
+        font-weight: 400;
+        font-size: 10px;
+        color: #1a1a1a;
+        position: relative;
+    }
+
+    .header_address_link::before {
+        position: absolute;
+        content: "";
+        width: 15px;
+        height: 15px;
+        background-image: url(../../img/header_location.svg);
+        background-repeat: no-repeat;
+        left: -20px;
+    }
+
+    .header_phone_link {
+        position: relative;
+        font-weight: 400;
+        font-size: 10px;
+        color: #1a1a1a;
+    }
+
+    .header_phone_link::before {
+        position: absolute;
+        content: "";
+        width: 15px;
+        height: 15px;
+        background-image: url(../../img/header_phone.svg);
+        background-repeat: no-repeat;
+        left: -20px;
+    }
+
+    .header_link {
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+    }
+}
